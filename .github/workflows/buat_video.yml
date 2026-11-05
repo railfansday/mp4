@@ -1,12 +1,9 @@
-name: Buat Video Vertikal 1080x1920
+name: Scrape Gambar & Buat Video
 
 on:
-  workflow_dispatch: # Bisa dijalankan manual dari tab Actions
-  push:
-    paths:
-      - '*.jpg'
-      - '*.png'
-      - '*.jpeg'
+  workflow_dispatch: # Jalankan manual
+  schedule:
+    - cron: '0 0 * * *' # Opsional: Jalankan otomatis setiap hari jam 00:00 UTC
 
 permissions:
   contents: write
@@ -14,6 +11,7 @@ permissions:
 jobs:
   build_video:
     runs-on: ubuntu-22.04
+    timeout-minutes: 30
 
     steps:
       - name: Checkout kode
@@ -30,23 +28,23 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # ✅ PENTING: MoviePy butuh FFmpeg untuk render video
-      - name: Install FFmpeg
+      - name: Install FFmpeg (Wajib untuk MoviePy)
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Jalankan Skrip Video
-        run: python buat_video.py
+      - name: Jalankan Scraper & Render Video
+        run: python buat_video_otomatis.py
 
-      # ✅ Simpan video MP4 ke repositori
-      - name: Upload Video ke GitHub
+      # Simpan video hasil render ke GitHub
+      - name: Commit & Push Video
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          git add video_1080x1920.mp4
+          # Hanya ambil file MP4
+          git add *.mp4
           
-          # Hentikan jika tidak ada video baru
+          # Jika tidak ada video baru, hentikan
           git diff --staged --quiet && echo "Tidak ada video baru" && exit 0
           
-          git commit -m "Update video vertikal otomatis [skip ci]"
+          git commit -m "Update video otomatis [skip ci]"
           git push
