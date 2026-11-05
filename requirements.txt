@@ -1,2 +1,4 @@
+icrawler
 moviepy
 pillow
+requests
