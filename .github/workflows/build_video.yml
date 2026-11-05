@@ -1,10 +1,10 @@
 name: Text to Video Otomatis
 
 on:
-  workflow_dispatch:        # bisa dijalankan manual dari tab Actions
+  workflow_dispatch:
   push:
     paths:
-      - 'keywords.txt'      # otomatis jalan kalau keywords.txt diubah
+      - 'berita.txt'
 
 jobs:
   build_video:
@@ -12,35 +12,29 @@ jobs:
     timeout-minutes: 60
 
     steps:
-      # 1. Checkout repo
       - name: Checkout
         uses: actions/checkout@v4
 
-      # 2. Setup Python
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
           cache: 'pip'
 
-      # 3. Install FFmpeg (wajib untuk MoviePy)
       - name: Install FFmpeg
         run: |
           sudo apt-get update
           sudo apt-get install -y ffmpeg
 
-      # 4. Install dependencies Python
-      - name: Install Python dependencies
+      - name: Install Python deps
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      # 5. Jalankan script
       - name: Build video
         run: python berita_to_video.py
 
-      # 6. Upload hasil video sebagai artifact
-      - name: Upload video
+      - name: Upload artifact
         uses: actions/upload-artifact@v4
         if: always()
         with:
