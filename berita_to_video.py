@@ -1,49 +1,48 @@
-import os
-import re
-import shutil
-import requests
+import os, re, requests
 from bs4 import BeautifulSoup
 from icrawler.builtin import BingImageCrawler
 from gtts import gTTS
-from moviepy import (
-    ImageClip, AudioFileClip, concatenate_videoclips,
-    CompositeVideoClip, TextClip
-)
-from PIL import Image
+from moviepy import ImageClip, AudioFileClip, concatenate_videoclips
+from PIL import Image, ImageOps
+from deep_translator import GoogleTranslator
 
-# ---------- KONFIGURASI ----------
-KEYWORDS_FILE   = "keywords.txt"
-OUTPUT_DIR      = "output"
-RAW_DIR         = os.path.join(OUTPUT_DIR, "raw")
-IMAGES_PER_KW   = 3          # jumlah gambar per keyword (biar ada variasi)
-MAX_TEXT_CHARS  = 450        # batas teks untuk TTS (~30-45 detik)
-VIDEO_SIZE      = (1280, 720)
-FPS             = 24
-LANG            = "id"
-# --------------------------------
-
+KEYWORDS_FILE  = "keywords.txt"
+OUTPUT_DIR     = "output"
+RAW_DIR        = os.path.join(OUTPUT_DIR, "raw")
+IMAGES_PER_KW  = 3
+MAX_TEXT_CHARS = 450
+VIDEO_SIZE     = (1280, 720)
+FPS            = 24
+LANG_TTS       = "id"        # suara Indonesia
+LANG_SEARCH    = "en"        # pencarian gambar & berita pakai Inggris
 os.makedirs(RAW_DIR, exist_ok=True)
 
 
-# ========== 1. BACA KEYWORDS ==========
-def load_keywords(path=KEYWORDS_FILE):
-    if not os.path.exists(path):
-        raise FileNotFoundError(f"{path} tidak ditemukan. Buat file dengan 1 keyword per baris.")
-    with open(path, "r", encoding="utf-8") as f:
-        kws = [line.strip() for line in f if line.strip()]
-    if not kws:
-        raise ValueError("keywords.txt kosong.")
-    return kws
-
-
-# ========== 2. SCRAPE TEKS BERITA ==========
-def scrape_news_text(keyword):
-    """Ambil ringkasan teks dari hasil pencarian berita (Bing News)."""
+# ========== TERJEMAHKAN KEYWORD ==========
+def translate_keyword(kw_id):
+    """Terjemahkan keyword Indonesia -> Inggris untuk pencarian."""
     try:
-        url = "https://www.bing.com/news/search"
+        kw_en = GoogleTranslator(source="id", target="en").translate(kw_id)
+        return kw_en
+    except Exception as e:
+        print(f"   ⚠️ Gagal terjemah: {e}, pakai keyword asli")
+        return kw_id
+
+
+# ========== SCRAPE TEKS BERITA (INDONESIA) ==========
+def scrape_news_text(keyword_id, keyword_en):
+    """
+    Cari berita dari situs Indonesia, ambil ringkasan dalam bahasa Indonesia.
+    Fallback: pakai keyword ID kalau gagal.
+    """
+    try:
         headers = {"User-Agent": "Mozilla/5.0"}
-        r = requests.get(url, params={"q": keyword}, headers=headers, timeout=15)
+        # 1) Coba situs berita Indonesia via Bing News (region ID)
+        url = "https://www.bing.com/news/search"
+        params = {"q": keyword_id, "mkt": "id-ID", "setlang": "id"}
+        r = requests.get(url, params=params, headers=headers, timeout=15)
         soup = BeautifulSoup(r.text, "lxml")
+
         snippets = []
         for tag in soup.select("div.news-card, a.title, div.snippet"):
             txt = tag.get_text(" ", strip=True)
@@ -51,125 +50,88 @@ def scrape_news_text(keyword):
                 snippets.append(txt)
             if len(snippets) >= 3:
                 break
-        text = " ".join(snippets).strip()
-        text = re.sub(r"\s+", " ", text)
-        if not text:
-            text = f"Berita terbaru mengenai {keyword}. Informasi lebih lanjut sedang dikembangkan."
-        return text[:MAX_TEXT_CHARS]
+
+        text_id = re.sub(r"\s+", " ", " ".join(snippets)).strip()
+
+        # 2) Kalau kosong, coba berita Inggris lalu terjemahkan ke Indonesia
+        if not text_id:
+            params_en = {"q": keyword_en, "mkt": "en-US", "setlang": "en"}
+            r2 = requests.get(url, params=params_en, headers=headers, timeout=15)
+            soup2 = BeautifulSoup(r2.text, "lxml")
+            snippets_en = []
+            for tag in soup2.select("div.news-card, a.title, div.snippet"):
+                txt = tag.get_text(" ", strip=True)
+                if txt and len(txt) > 40:
+                    snippets_en.append(txt)
+                if len(snippets_en) >= 3:
+                    break
+            text_en = " ".join(snippets_en).strip()
+            if text_en:
+                text_id = GoogleTranslator(source="en", target="id").translate(text_en)
+
+        if not text_id:
+            text_id = f"Berita terbaru mengenai {keyword_id}."
+
+        return text_id[:MAX_TEXT_CHARS]
+
     except Exception as e:
-        print(f"   ⚠️ Gagal scrape, pakai fallback: {e}")
-        return f"Berita terbaru mengenai {keyword}."
+        print(f"   ⚠️ Gagal scrape: {e}")
+        return f"Berita terbaru mengenai {keyword_id}."
 
 
-# ========== 3. DOWNLOAD GAMBAR ==========
-def download_images(keyword, idx):
+# ========== DOWNLOAD GAMBAR (PAKAI KEYWORD INGGRIS) ==========
+def download_images(keyword_en, idx):
     folder = os.path.join(RAW_DIR, f"img_{idx}")
     os.makedirs(folder, exist_ok=True)
     crawler = BingImageCrawler(
         storage={"root_dir": folder},
         downloader_threads=2,
-        feeder_threads=1,
-        parser_threads=1,
-        log_level=40,  # warning only
+        log_level=40,
     )
-    crawler.crawl(keyword=keyword, max_num=IMAGES_PER_KW)
-    imgs = sorted(
-        [os.path.join(folder, f) for f in os.listdir(folder)
-         if f.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))]
-    )
+    crawler.crawl(keyword=keyword_en, max_num=IMAGES_PER_KW)
+    imgs = sorted([
+        os.path.join(folder, f) for f in os.listdir(folder)
+        if f.lower().endswith((".jpg", ".jpeg", ".png", ".webp"))
+    ])
     return imgs
 
 
-# ========== 4. TEKS -> SUARA ==========
-def text_to_speech(text, out_path):
-    tts = gTTS(text=text, lang=LANG, slow=False)
-    tts.save(out_path)
-    return out_path
+# ========== BUILD CLIP ==========
+def build_clip_for_keyword(keyword_id, idx):
+    print(f"\n🎬 [{idx}] {keyword_id}")
 
+    # 1) Terjemahkan keyword untuk pencarian
+    keyword_en = translate_keyword(keyword_id)
+    print(f"   🔁 Keyword pencarian: {keyword_en}")
 
-# ========== 5. RESIZE / FIT GAMBAR ==========
-def fit_image(img_path, size=VIDEO_SIZE):
-    """Resize + crop tengah supaya pas rasio video."""
-    from PIL import ImageOps
-    img = Image.open(img_path).convert("RGB")
-    img = ImageOps.exif_transpose(img)
-    img = ImageOps.fit(img, size, method=Image.LANCZOS)
-    tmp = img_path + "_fit.jpg"
-    img.save(tmp, "JPEG", quality=90)
-    return tmp
+    # 2) Scrape teks Indonesia
+    print("   📝 Scrape teks berita (ID)...")
+    text = scrape_news_text(keyword_id, keyword_en)
+    print(f"      → {text[:80]}...")
 
-
-# ========== 6. BUAT CLIP PER KEYWORD ==========
-def build_clip_for_keyword(keyword, idx):
-    print(f"\n🎬 Memproses keyword [{idx}]: {keyword}")
-
-    # 1) teks
-    print("   📝 Scrape teks berita...")
-    text = scrape_news_text(keyword)
-    print(f"      → {text[:90]}...")
-
-    # 2) gambar
-    print("   🖼️  Download gambar...")
-    imgs = download_images(keyword, idx)
+    # 3) Download gambar pakai keyword Inggris
+    print("   🖼️  Download gambar (EN)...")
+    imgs = download_images(keyword_en, idx)
     if not imgs:
-        print("      ⚠️ Tidak ada gambar, pakai gambar placeholder.")
-        placeholder = os.path.join(RAW_DIR, f"placeholder_{idx}.jpg")
-        Image.new("RGB", VIDEO_SIZE, (30, 30, 30)).save(placeholder)
-        imgs = [placeholder]
-    print(f"      → {len(imgs)} gambar")
+        ph = os.path.join(RAW_DIR, f"placeholder_{idx}.jpg")
+        Image.new("RGB", VIDEO_SIZE, (30, 30, 30)).save(ph)
+        imgs = [ph]
 
-    # 3) suara
-    print("   🔊 Generate TTS...")
+    # 4) TTS Indonesia
+    print("   🔊 TTS (ID)...")
     audio_path = os.path.join(RAW_DIR, f"audio_{idx}.mp3")
-    text_to_speech(text, audio_path)
+    gTTS(text=text, lang=LANG_TTS, slow=False).save(audio_path)
     audio = AudioFileClip(audio_path)
 
-    # 4) bagi durasi audio ke jumlah gambar
+    # 5) Gabung gambar (durasi = audio / n)
     per_img = audio.duration / len(imgs)
     clips = []
     for p in imgs:
-        fit = fit_image(p)
-        clip = ImageClip(fit).with_duration(per_img)
-        clips.append(clip)
+        img = ImageOps.fit(Image.open(p).convert("RGB"), VIDEO_SIZE, Image.LANCZOS)
+        tmp = p + "_fit.jpg"
+        img.save(tmp, "JPEG", quality=90)
+        clips.append(ImageClip(tmp).with_duration(per_img))
 
-    video = concatenate_videoclips(clips, method="compose")
-    video = video.with_audio(audio)
-    print(f"   ✅ Clip selesai: {video.duration:.1f}s, {len(imgs)} gambar")
+    video = concatenate_videoclips(clips, method="compose").with_audio(audio)
+    print(f"   ✅ {video.duration:.1f}s")
     return video
-
-
-# ========== 7. MAIN ==========
-def main():
-    keywords = load_keywords()
-    print(f"📋 {len(keywords)} keyword ditemukan.\n")
-
-    clips = []
-    for i, kw in enumerate(keywords, start=1):
-        try:
-            clips.append(build_clip_for_keyword(kw, i))
-        except Exception as e:
-            print(f"   ❌ Gagal memproses '{kw}': {e}")
-            continue
-
-    if not clips:
-        print("Tidak ada clip yang berhasil. Berhenti.")
-        return
-
-    print("\n🔗 Menggabungkan semua clip...")
-    final = concatenate_videoclips(clips, method="compose")
-
-    out_path = os.path.join(OUTPUT_DIR, "berita_final.mp4")
-    print(f"💾 Menulis video ke {out_path} ...")
-    final.write_videofile(
-        out_path,
-        fps=FPS,
-        codec="libx264",
-        audio_codec="aac",
-        preset="ultrafast",   # lebih cepat di CPU
-        threads=2,
-    )
-    print(f"\n✅ Selesai: {out_path}")
-
-
-if __name__ == "__main__":
-    main()
