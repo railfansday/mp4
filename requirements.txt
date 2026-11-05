@@ -3,3 +3,4 @@ moviepy
 pillow
 requests
 gTTS
+pip install deep-translator
