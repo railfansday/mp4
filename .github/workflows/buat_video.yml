@@ -1,9 +1,7 @@
-name: Scrape Gambar & Buat Video
+name: Text to Video Otomatis
 
 on:
-  workflow_dispatch: # Jalankan manual
-  schedule:
-    - cron: '0 0 * * *' # Opsional: Jalankan otomatis setiap hari jam 00:00 UTC
+  workflow_dispatch: # Bisa dijalankan manual dari tab Actions
 
 permissions:
   contents: write
@@ -11,7 +9,7 @@ permissions:
 jobs:
   build_video:
     runs-on: ubuntu-22.04
-    timeout-minutes: 30
+    timeout-minutes: 60 # Waktu dinaikkan karena TTS & rendering butuh waktu
 
     steps:
       - name: Checkout kode
@@ -28,23 +26,24 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Install FFmpeg (Wajib untuk MoviePy)
+      # ✅ Wajib untuk MoviePy
+      - name: Install FFmpeg
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Jalankan Scraper & Render Video
-        run: python buat_video_otomatis.py
+      - name: Jalankan Skrip Text to Video
+        run: python text_to_video.py
 
-      # Simpan video hasil render ke GitHub
+      # ✅ Simpan video hasil render ke repositori
       - name: Commit & Push Video
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Hanya ambil file MP4
+          # Ambil file MP4 hasil render
           git add *.mp4
           
-          # Jika tidak ada video baru, hentikan
+          # Jika tidak ada perubahan/video baru, hentikan
           git diff --staged --quiet && echo "Tidak ada video baru" && exit 0
           
-          git commit -m "Update video otomatis [skip ci]"
+          git commit -m "Update video dari teks otomatis [skip ci]"
           git push
