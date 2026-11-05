@@ -2,3 +2,4 @@ icrawler
 moviepy
 pillow
 requests
+gTTS
