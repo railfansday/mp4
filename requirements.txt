@@ -1,8 +1,8 @@
 icrawler
-moviepy
-pillow
-requests
 gTTS
-pip 
-install 
+moviepy
+Pillow
+requests
+beautifulsoup4
+lxml
 deep-translator
