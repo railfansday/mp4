@@ -4,4 +4,5 @@ pillow
 requests
 gTTS
 pip 
-install deep-translator
+install 
+deep-translator
