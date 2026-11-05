@@ -7,9 +7,8 @@ import glob
 # ==========================================
 # KONFIGURASI
 # ==========================================
-KEYWORD_FILE = "keyword.txt"  # File yang berisi teks "xiaomi 15 t"
+KEYWORD_FILE = "keyword.txt"  
 TEMP_DIR = "temp_gambar"
-OUTPUT_VIDEO = "video_1080x1920.mp4"
 JUMLAH_GAMBAR = 10
 
 def bersihkan_folder(folder):
@@ -18,60 +17,60 @@ def bersihkan_folder(folder):
     os.makedirs(folder)
 
 def buat_video():
-    # 1. Baca kata kunci
     if not os.path.exists(KEYWORD_FILE):
         print("❌ File keyword.txt tidak ditemukan!")
         return
         
-    with open(KEYWORD_FILE, "r") as f:
-        keyword = f.read().strip()
+    # ✅ BACA FILE PER BARIS (Bukan sekaligus)
+    with open(KEYWORD_FILE, "r", encoding="utf-8") as f:
+        daftar_keyword = [line.strip() for line in f if line.strip()]
         
-    if not keyword:
+    if not daftar_keyword:
         print("❌ Kata kunci kosong.")
         return
 
-    print(f"[*] Mencari gambar untuk: '{keyword}'")
-    bersihkan_folder(TEMP_DIR)
-
-    # 2. Scrape Gambar (menggunakan Bing Image Crawler)
-    crawler = BingImageCrawler(storage={'root_dir': TEMP_DIR})
-    crawler.crawl(keyword=keyword, max_num=JUMLAH_GAMBAR)
-    
-    # Kumpulkan gambar yang berhasil diunduh
-    daftar_gambar = sorted(glob.glob(f"{TEMP_DIR}/*.jpg") + glob.glob(f"{TEMP_DIR}/*.png"))
-    
-    if not daftar_gambar:
-        print("❌ Gagal mengunduh gambar.")
-        return
+    # ✅ LOOPING UNTUK SETIAP KEYWORD
+    for i, keyword in enumerate(daftar_keyword):
+        print(f"\n[{i+1}/{len(daftar_keyword)}] Mencari gambar untuk: '{keyword}'")
         
-    print(f"[*] Berhasil mengunduh {len(daftar_gambar)} gambar.")
+        folder_keyword = os.path.join(TEMP_DIR, f"kw_{i}")
+        bersihkan_folder(folder_keyword)
 
-    # 3. Buat Video MP4 1080x1920
-    print("[*] Membuat video vertikal...")
-    clips = []
-    for img_path in daftar_gambar:
-        try:
-            # Setiap gambar tampil selama 3 detik
-            clip = ImageClip(img_path).with_duration(3)
+        # 1. Scrape Gambar
+        crawler = BingImageCrawler(storage={'root_dir': folder_keyword})
+        crawler.crawl(keyword=keyword, max_num=JUMLAH_GAMBAR)
+        
+        daftar_gambar = sorted(glob.glob(f"{folder_keyword}/*.jpg") + glob.glob(f"{folder_keyword}/*.png"))
+        
+        if not daftar_gambar:
+            print(f"   ⚠️ Gagal mengunduh gambar untuk {keyword}. Lanjut...")
+            continue
             
-            # Resize dan Crop agar pas 1080x1920 tanpa gepeng
-            # (Resize agar sisi terpendek 1080, lalu crop bagian tengah)
-            clip = clip.resized(height=1920)
-            clip = clip.cropped(x_center=clip.w/2, width=1080)
+        print(f"   ✅ Berhasil mengunduh {len(daftar_gambar)} gambar.")
+
+        # 2. Buat Video
+        clips = []
+        for img_path in daftar_gambar:
+            try:
+                clip = ImageClip(img_path).with_duration(3)
+                clip = clip.resized(height=1920)
+                clip = cropped_clip = clip.cropped(x_center=clip.w/2, width=1080)
+                clips.append(clip)
+            except Exception:
+                pass
+
+        if clips:
+            video_final = concatenate_videoclips(clips, method="compose")
             
-            clips.append(clip)
-        except Exception as e:
-            print(f"   ⚠️ Gagal memproses {img_path}: {e}")
-
-    if not clips:
-        print("❌ Tidak ada klip yang valid untuk digabungkan.")
-        return
-
-    video_final = concatenate_videoclips(clips, method="compose")
-    
-    # Simpan video
-    video_final.write_videofile(OUTPUT_VIDEO, fps=30, codec="libx264")
-    print(f"✅ Selesai! Video disimpan sebagai: {OUTPUT_VIDEO}")
+            # Buat nama file aman (hilangkan spasi)
+            nama_aman = "".join(c if c.isalnum() else "_" for c in keyword)
+            output_video = f"video_{nama_aman}.mp4"
+            
+            video_final.write_videofile(output_video, fps=30, codec="libx264", logger=None)
+            print(f"   🎬 Selesai! Video disimpan: {output_video}")
+            
+            # Hapus folder temp agar tidak menumpuk
+            shutil.rmtree(folder_keyword)
 
 if __name__ == "__main__":
     buat_video()
