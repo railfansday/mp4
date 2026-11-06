@@ -37,7 +37,7 @@ jobs:
 
       # 5. Jalankan script
       - name: Build video
-        run: python video_keyword.py
+        run: python buat_video_otomatis.py
 
       # 6. Upload semua video hasil (video_*.mp4) sebagai artifact
       - name: Upload videos
