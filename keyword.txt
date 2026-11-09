@@ -1,51 +1,100 @@
-S-Shark|S-Shark One Piece
-Kozuki Momonosuke|Kozuki Momonosuke One Piece
-Kin'emon|Kin'emon One Piece
-Kanjuro|Kanjuro One Piece
-Raizo|Raizo One Piece
-Nekomamushi|Nekomamushi One Piece
-Inuarashi|Inuarashi One Piece
-Kikunojo|Kikunojo One Piece
-Denjiro|Denjiro One Piece
-Kawamatsu|Kawamatsu One Piece
-Ashura Doji|Ashura Doji One Piece
-Izo|Izo One Piece
-Shiryu|Shiryu One Piece
-Van Augur|Van Augur One Piece
-Jesus Burgess|Jesus Burgess One Piece
-Doc Q|Doc Q One Piece
-Laffitte|Laffitte One Piece
-Avalo Pizarro|Avalo Pizarro One Piece
-Vasco Shot|Vasco Shot One Piece
-Sanjuan Wolf|Sanjuan Wolf One Piece
-Katarina Devon|Katarina Devon One Piece
-Benn Beckman|Benn Beckman One Piece
-Lucky Roux|Lucky Roux One Piece
-Yasopp|Yasopp One Piece
-Perospero|Perospero One Piece
-Oven|Oven One Piece
-Daifuku|Daifuku One Piece
-Brulée|Brulée One Piece
-Pudding|Charlotte Pudding One Piece
-Jack|Jack One Piece
-Page One|Page One One Piece
-Ulti|Ulti One Piece
-Who's Who|Who's Who One Piece
-Sasaki|Sasaki One Piece
-Black Maria|Black Maria One Piece
-Belo Betty|Belo Betty One Piece
-Karasu|Karasu One Piece
-Lindbergh|Lindbergh One Piece
-Morley|Morley One Piece
-Monkey D Dragon|Monkey D Dragon One Piece
-Emporio Ivankov|Emporio Ivankov One Piece
-Inazuma|Inazuma One Piece
-Koala|Koala One Piece
-Hack|Hack One Piece
-Caesar Clown|Caesar Clown One Piece
-Vergo|Vergo One Piece
-Monet|Monet One Piece
-Sugar|Sugar One Piece
-Senor Pink|Senor Pink One Piece
-Trebol|Trebol One Piece
-Diamante|Diamante One Piece
+Pica|Pica One Piece
+Cavendish|Cavendish One Piece
+Bartolomeo|Bartolomeo One Piece
+Sai|Sai One Piece
+Ideo|Ideo One Piece
+Leo|Leo One Piece
+Hajrudin|Hajrudin One Piece
+Orlumbus|Orlumbus One Piece
+Bellamy|Bellamy One Piece
+Pell|Pell One Piece
+Chaka|Chaka One Piece
+Igaram|Igaram One Piece
+Kozuki Sukiyaki|Kozuki Sukiyaki One Piece
+Vegapunk|Dr Vegapunk One Piece
+Shaka|Shaka One Piece
+Lilith|Lilith One Piece
+Edison|Edison One Piece
+Pythagoras|Pythagoras One Piece
+Atlas|Atlas One Piece
+York|York One Piece
+Pedro|Pedro One Piece
+Carrot|Carrot One Piece
+Pekoms|Pekoms One Piece
+Tamago|Baron Tamago One Piece
+Clover|Professor Clover One Piece
+Jaguar D Saul|Jaguar D Saul One Piece
+Fisher Tiger|Fisher Tiger One Piece
+Otohime|Queen Otohime One Piece
+Neptune|King Neptune One Piece
+Shirahoshi|Shirahoshi One Piece
+Fukaboshi|Fukaboshi One Piece
+Ryuboshi|Ryuboshi One Piece
+Manboshi|Manboshi One Piece
+Arlong|Arlong One Piece
+Hatchan|Hatchan One Piece
+Chew|Chew One Piece
+Kuroobi|Kuroobi One Piece
+Hody Jones|Hody Jones One Piece
+Hyosube|Hyogoro One Piece
+Yasuie|Shimotsuki Yasuie One Piece
+Ushimaru|Shimotsuki Ushimaru One Piece
+Ryuma|Shimotsuki Ryuma One Piece
+Koushirou|Koushirou One Piece
+Kuina|Kuina One Piece
+Zeff|Chef Zeff One Piece
+Nojiko|Nojiko One Piece
+Genzo|Genzo One Piece
+Kaya|Kaya One Piece
+Ninjin|Ninjin One Piece
+Piiman|Piiman One Piece
+Tamanegi|Tamanegi One Piece
+Boodle|Mayor Boodle One Piece
+Chouchou|Chouchou One Piece
+Gaimon|Gaimon One Piece
+Patty|Patty One Piece
+Carne|Carne One Piece
+Higuma|Higuma One Piece
+Makino|Makino One Piece
+Dadan|Curly Dadan One Piece
+Dogra|Dogra One Piece
+Magra|Magra One Piece
+Porchemy|Porchemy One Piece
+Bluejam|Bluejam One Piece
+Outlook III|Outlook III One Piece
+Sterry|King Sterry One Piece
+Kureha|Dr Kureha One Piece
+Hiruluk|Dr Hiruluk One Piece
+Dalton|Dalton One Piece
+Wapol|Wapol One Piece
+Chess|Chess One Piece
+Kuromarimo|Kuromarimo One Piece
+Chessmarimo|Chessmarimo One Piece
+Robson|Robson One Piece
+Lapahn|Lapahn One Piece
+Dorry|Dorry One Piece
+Broggy|Broggy One Piece
+Mr 1|Daz Bonez One Piece
+Miss Doublefinger|Zala One Piece
+Mr 2|Bon Kurei One Piece
+Mr 3|Galdino One Piece
+Miss Goldenweek|Marianne One Piece
+Mr 4|Babe One Piece
+Miss Merry Christmas|Dromaeo One Piece
+Mr 5|Gem One Piece
+Miss Valentine|Mikita One Piece
+Mr 7|Mr 7 One Piece
+Miss Father's Day|Miss Father's Day One Piece
+Mr 9|Mr 9 One Piece
+Miss Monday|Miss Monday One Piece
+Mr 11|Mr 11 One Piece
+Mr 13|Unluckies One Piece
+Miss Friday|Unluckies One Piece
+Gedatsu|Gedatsu One Piece
+Shura|Shura One Piece
+Satori|Satori One Piece
+Ohm|Ohm One Piece
+Yama|Yama One Piece
+Hotori|Hotori One Piece
+Kotori|Kotori One Piece
+Gan Fall|Gan Fall One Piece
