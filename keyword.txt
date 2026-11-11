@@ -1,100 +1,100 @@
-Pierre|Pierre One Piece
-Conis|Conis One Piece
-Su|Su One Piece
-Pagaya|Pagaya One Piece
-Wyper|Wyper One Piece
-Kamakiri|Kamakiri One Piece
-Braham|Braham One Piece
-Genbo|Genbo One Piece
-Raki|Raki One Piece
-Aisa|Aisa One Piece
-Nola|Nola Giant Snake One Piece
-Kalgara|Kalgara One Piece
-Noland|Mont Blanc Noland One Piece
-Cricket|Mont Blanc Cricket One Piece
-Masira|Masira One Piece
-Shojo|Shojo One Piece
-Titi|Nefertari Titi One Piece
-Cobra|Nefertari Cobra One Piece
-Kokoro|Kokoro One Piece
-Chimney|Chimney One Piece
-Gonbe|Gonbe One Piece
-Yokozuna|Yokozuna One Piece
-Paulie|Paulie One Piece
-Peepley Lulu|Peepley Lulu One Piece
-Tilestone|Tilestone One Piece
-Iceburg|Iceburg One Piece
-Kalifa|Kalifa One Piece
-Kaku|Kaku One Piece
-Blueno|Blueno One Piece
-Jabra|Jabra One Piece
-Kumadori|Kumadori One Piece
-Fukuro|Fukuro One Piece
-Nero|Nero One Piece
-Spandam|Spandam One Piece
-Spandine|Spandine One Piece
-T-Bone|T-Bone One Piece
-Very Good|Very Good One Piece
-Sharinguru|Sharinguru One Piece
-Gorilla|Gorilla One Piece
-Strawberry|Strawberry One Piece
-Yamakaji|Yamakaji One Piece
-Doberman|Doberman One Piece
-Onigumo|Onigumo One Piece
-Momonga|Momonga One Piece
-Dalmatian|Dalmatian One Piece
-Bastille|Bastille One Piece
-Maynard|Maynard One Piece
-Sentomaru|Sentomaru One Piece
-Pacifista|PX Pacifista One Piece
-Lola|Charlotte Lola One Piece
-Chiffon|Charlotte Chiffon One Piece
-Hogback|Dr Hogback One Piece
-Absalom|Absalom One Piece
-Cindry|Victoria Cindry One Piece
-Ryuma Zombie|Ryuma Zombie One Piece
-Oars|Oars One Piece
-Little Oars Jr|Little Oars Jr One Piece
-Tararan|Tararan One Piece
-Spider Monkey|Spider Monkey One Piece
-Hildon|Hildon One Piece
-Kumashi|Kumashi One Piece
-Hippopotamus Zombie|Hippopotamus Zombie One Piece
-Saldeath|Saldeath One Piece
-Sadi|Minotaurus Sadi One Piece
-Hannyabal|Hannyabal One Piece
-Magellan|Magellan One Piece
-Domino|Domino One Piece
-Minotaurus|Jailer Beast Minotaurus One Piece
-Minorhinoceros|Jailer Beast Minorhinoceros One Piece
-Minokoala|Jailer Beast Minokoala One Piece
-Minozebra|Jailer Beast Minozebra One Piece
-Minochihuahua|Jailer Beast Minochihuahua One Piece
-Squard|Squard One Piece
-Decalvan Brothers|Decalvan Brothers One Piece
-Whitey Bay|Whitey Bay One Piece
-Knighting|Knighting One Piece
-Elmy|Elmy One Piece
-Ramba|Ramba One Piece
-A.O|A.O One Piece
-Delacuaji|Delacuaji One Piece
-Palms|Palms One Piece
-Bizarre|Bizarre One Piece
-Islewan|Islewan One Piece
-Epoida|Epoida One Piece
-Karma|Karma One Piece
-Amadob|Amadob One Piece
-Andre|Andre One Piece
-Nigaku|Nigaku One Piece
-Blavin|Blavin One Piece
-Cactus|Cactus One Piece
-Choi|Choi One Piece
-Kinga|Kinga One Piece
-Reflex|Reflex One Piece
-Zambai|Zambai One Piece
-Kop|Kop One Piece
-Mozu|Mozu One Piece
-Kiwi|Kiwi One Piece
-Tamagon|Tamagon One Piece
-Super Spotbill Duck Squad|Karoo One Piece
-Karoo|Karoo One Piece
+Stomp|Stomp One Piece
+Ivan X|Ivan X One Piece
+Cowboy|Cowboy One Piece
+Bourbon Jr|Bourbon Jr One Piece
+Kentauros|Kentauros One Piece
+Hikoichi|Hikoichi One Piece
+Matsuge|Camel Matsuge One Piece
+Hasami|Crab Hasami One Piece
+Eyelashes|Camel Eyelashes One Piece
+Dugong|Kung Fu Dugong One Piece
+Bananawani|Bananawani One Piece
+Pappag|Pappag One Piece
+Camie|Camie One Piece
+Den|Den One Piece
+Fisherman Tom|Tom Water Seven One Piece
+Hagoromo|Hagoromo One Piece
+Doberman|Vice Admiral Doberman One Piece
+Bogard|Bogard One Piece
+Garp Assistant|Bogard Marine One Piece
+Brandnew|Commodore Brandnew One Piece
+Fullbody|Fullbody One Piece
+Jango|Jango One Piece
+Nezumi|Captain Nezumi One Piece
+Kuro|Captain Kuro One Piece
+Jango|Jango Black Cat Pirates One Piece
+Buchanan|Buchanan One Piece
+Sham|Sham One Piece
+Buchi|Buchi One Piece
+Don Krieg|Don Krieg One Piece
+Gin|Gin One Piece
+Pearl|Pearl One Piece
+Ideaman|Ideaman One Piece
+Kagikko|Kagikko One Piece
+Hustle|Hustle One Piece
+Alvida|Alvida One Piece
+Gally|Gally One Piece
+Mikio Ittoo|Mikio Ittoo One Piece
+Minatomo|Minatomo Carpenter One Piece
+Pandaman|Pandaman One Piece
+Unforgivable Mask|Unforgivable Mask One Piece
+Dossun|Dossun One Piece
+Zeo|Zeo One Piece
+Daruma|Daruma One Piece
+Ikaros Much|Ikaros Much One Piece
+Hyouzou|Hyouzou One Piece
+Wadatsumi|Wadatsumi One Piece
+Vander Decken IX|Vander Decken IX One Piece
+Shyarly|Madam Shyarly One Piece
+Hoe|Hoe Whale One Piece
+Megalo|Megalo Shark One Piece
+Mocha|Mocha Punk Hazard One Piece
+Sind|Sind Punk Hazard One Piece
+Doron|Doron Punk Hazard One Piece
+Bibo|Bibo Punk Hazard One Piece
+G-5 Marines|G-5 Marines One Piece
+Yarisugi|Yarisugi One Piece
+Vergo|Vergo G-5 One Piece
+Brownbeard|Brownbeard One Piece
+Yeti COOL Brothers|Yeti COOL Brothers One Piece
+Rock|Rock Yeti COOL Brothers One Piece
+Scotch|Scotch Yeti COOL Brothers One Piece
+Dragon Number Thirteen|Dragon Number Thirteen One Piece
+Small Dragon|Small Dragon Punk Hazard One Piece
+Smiley|Smiley Gas Monster One Piece
+Kin'emon Legs|Kin'emon Legs One Piece
+Gatz|Gatz Dressrosa One Piece
+Lucy|Lucy Luffy Dressrosa One Piece
+Spartan|Spartan Gladiator One Piece
+Hack|Fish-Man Hack One Piece
+Tank Lepanto|Tank Lepanto One Piece
+Meadows|Meadows One Piece
+Damask|Damask One Piece
+Rolling Logan|Rolling Logan One Piece
+Mummy|Mummy One Piece
+Orlumbus|Orlumbus Fleet One Piece
+Suleiman|Suleiman One Piece
+Dagama|Dagama One Piece
+Elizabello II|King Elizabello II One Piece
+Jean Ango|Jean Ango One Piece
+Kerry Funk|Kerry Funk One Piece
+Bobby Funk|Bobby Funk One Piece
+Abdullah|Abdullah One Piece
+Jeet|Jeet One Piece
+Boo|Boo Kano Kingdom One Piece
+Chinjao|Don Chinjao One Piece
+Kelly Funk|Kelly Funk One Piece
+Ricky|King Riku Doldo III One Piece
+Riku Doldo III|King Riku Doldo III One Piece
+Viola|Viola Violet One Piece
+Rebecca|Rebecca One Piece
+Kyros|Kyros Soldier Toy One Piece
+Scarlett|Scarlett One Piece
+Mansherry|Princess Mansherry One Piece
+Gancho|Chief Gancho One Piece
+Kababu|Kababu Tontatta One Piece
+Kabu|Kabu Tontatta One Piece
+Bian|Bian Tontatta One Piece
+Rambou|Rambou Tontatta One Piece
+Jietto|Jietto Tontatta One Piece
+Bomba|Bomba Tontatta One Piece
