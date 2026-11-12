@@ -1,100 +1,99 @@
-Stomp|Stomp One Piece
-Ivan X|Ivan X One Piece
-Cowboy|Cowboy One Piece
-Bourbon Jr|Bourbon Jr One Piece
-Kentauros|Kentauros One Piece
-Hikoichi|Hikoichi One Piece
-Matsuge|Camel Matsuge One Piece
-Hasami|Crab Hasami One Piece
-Eyelashes|Camel Eyelashes One Piece
-Dugong|Kung Fu Dugong One Piece
-Bananawani|Bananawani One Piece
-Pappag|Pappag One Piece
-Camie|Camie One Piece
-Den|Den One Piece
-Fisherman Tom|Tom Water Seven One Piece
-Hagoromo|Hagoromo One Piece
-Doberman|Vice Admiral Doberman One Piece
-Bogard|Bogard One Piece
-Garp Assistant|Bogard Marine One Piece
-Brandnew|Commodore Brandnew One Piece
-Fullbody|Fullbody One Piece
-Jango|Jango One Piece
-Nezumi|Captain Nezumi One Piece
-Kuro|Captain Kuro One Piece
-Jango|Jango Black Cat Pirates One Piece
-Buchanan|Buchanan One Piece
-Sham|Sham One Piece
-Buchi|Buchi One Piece
-Don Krieg|Don Krieg One Piece
-Gin|Gin One Piece
-Pearl|Pearl One Piece
-Ideaman|Ideaman One Piece
-Kagikko|Kagikko One Piece
-Hustle|Hustle One Piece
-Alvida|Alvida One Piece
-Gally|Gally One Piece
-Mikio Ittoo|Mikio Ittoo One Piece
-Minatomo|Minatomo Carpenter One Piece
-Pandaman|Pandaman One Piece
-Unforgivable Mask|Unforgivable Mask One Piece
-Dossun|Dossun One Piece
-Zeo|Zeo One Piece
-Daruma|Daruma One Piece
-Ikaros Much|Ikaros Much One Piece
-Hyouzou|Hyouzou One Piece
-Wadatsumi|Wadatsumi One Piece
-Vander Decken IX|Vander Decken IX One Piece
-Shyarly|Madam Shyarly One Piece
-Hoe|Hoe Whale One Piece
-Megalo|Megalo Shark One Piece
-Mocha|Mocha Punk Hazard One Piece
-Sind|Sind Punk Hazard One Piece
-Doron|Doron Punk Hazard One Piece
-Bibo|Bibo Punk Hazard One Piece
-G-5 Marines|G-5 Marines One Piece
-Yarisugi|Yarisugi One Piece
-Vergo|Vergo G-5 One Piece
-Brownbeard|Brownbeard One Piece
-Yeti COOL Brothers|Yeti COOL Brothers One Piece
-Rock|Rock Yeti COOL Brothers One Piece
-Scotch|Scotch Yeti COOL Brothers One Piece
-Dragon Number Thirteen|Dragon Number Thirteen One Piece
-Small Dragon|Small Dragon Punk Hazard One Piece
-Smiley|Smiley Gas Monster One Piece
-Kin'emon Legs|Kin'emon Legs One Piece
-Gatz|Gatz Dressrosa One Piece
-Lucy|Lucy Luffy Dressrosa One Piece
-Spartan|Spartan Gladiator One Piece
-Hack|Fish-Man Hack One Piece
-Tank Lepanto|Tank Lepanto One Piece
-Meadows|Meadows One Piece
-Damask|Damask One Piece
-Rolling Logan|Rolling Logan One Piece
-Mummy|Mummy One Piece
-Orlumbus|Orlumbus Fleet One Piece
-Suleiman|Suleiman One Piece
-Dagama|Dagama One Piece
-Elizabello II|King Elizabello II One Piece
-Jean Ango|Jean Ango One Piece
-Kerry Funk|Kerry Funk One Piece
-Bobby Funk|Bobby Funk One Piece
-Abdullah|Abdullah One Piece
-Jeet|Jeet One Piece
-Boo|Boo Kano Kingdom One Piece
-Chinjao|Don Chinjao One Piece
-Kelly Funk|Kelly Funk One Piece
-Ricky|King Riku Doldo III One Piece
-Riku Doldo III|King Riku Doldo III One Piece
-Viola|Viola Violet One Piece
-Rebecca|Rebecca One Piece
-Kyros|Kyros Soldier Toy One Piece
-Scarlett|Scarlett One Piece
-Mansherry|Princess Mansherry One Piece
-Gancho|Chief Gancho One Piece
-Kababu|Kababu Tontatta One Piece
-Kabu|Kabu Tontatta One Piece
-Bian|Bian Tontatta One Piece
-Rambou|Rambou Tontatta One Piece
-Jietto|Jietto Tontatta One Piece
-Bomba|Bomba Tontatta One Piece
+Gunung Bromo Jawa Timur
+Raja Ampat Papua Barat
+Danau Toba Sumatera Utara
+Kawah Ijen Banyuwangi
+Pantai Kelingking Nusa Penida
+Pulau Padar Labuan Bajo
+Taman Nasional Komodo
+Candi Borobudur Magelang
+Ngarai Sianok Bukittinggi
+Danau Kelimutu Flores
+Pantai Pink Lombok
+Gunung Rinjani Lombok
+Kawah Putih Ciwidey Bandung
+Tebing Keraton Bandung
+Pantai Tanjung Tinggi Belitung
+ Kepulauan Derawan Kalimantan Timur
+Taman Nasional Bromo Tengger Semeru
+Air Terjun Tumpak Sewu Lumajang
+Pantai Parangtritis Yogyakarta
+Gunung Merapi Yogyakarta
+Bukit Teletubbies Bromo
+Danau Sentani Jayapura
+Pantai Ora Maluku Tengah
+Gunung Semeru Jawa Timur
+Kepulauan Karimunjawa Jepara
+Dataran Tinggi Dieng Wonosobo
+Telaga Warna Dieng
+Bukit Sikunir Dieng
+Pantai Sawarna Banten
+Ujung Kulon Banten
+Taman Nasional Baluran Situbondo
+Savana Bekol Baluran
+Pantai Papuma Jember
+Teluk Kiluan Lampung
+Pulau Pahawang Lampung
+Air Terjun Madakaripura Probolinggo
+Gunung Prau Wonosobo
+Gunung Merbabu Jawa Tengah
+Gunung Lawu Karanganyar
+Tawangmangu Karanganyar
+Grojogan Sewu Tawangmangu
+Pantai Menganti Kebumen
+Goa Gong Pacitan
+Pantai Klayar Pacitan
+Wakatobi Sulawesi Tenggara
+Taman Nasional Bunaken Manado
+Danau Linow Tomohon
+Tana Toraja Sulawesi Selatan
+Pegunungan Karst Maros Pangkep
+Pantai Losari Makassar
+Pulau Weh Sabang Aceh
+Danau Laut Tawar Takengon
+Lembah Harau Payakumbuh
+Jam Gadang Bukittinggi
+Pulau Samosir Danau Toba
+Air Terjun Sipiso-piso
+Pantai Pandawa Bali
+Tanah Lot Bali
+Uluwatu Bali
+Tegalalang Rice Terrace Ubud
+Danau Beratan Bedugul
+Gunung Agung Bali
+Gunung Batur Kintamani
+Pantai Lovina Singaraja
+Pulau Menjangan Bali
+Gili Trawangan Lombok
+Gili Meno Lombok
+Gili Air Lombok
+Bukit Pergasingan Sembalun
+Pantai Tanjung Aan Lombok
+Bukit Merese Lombok
+Air Terjun Sendang Gile Lombok
+Pulau Kenawa Sumbawa
+Pulau Moyo Sumbawa
+Gunung Tambora Sumbawa
+Danau Satonda Sumbawa
+Pantai Nihiwatu Sumba
+Bukit Wairinding Sumba
+Savana Puru Kambera Sumba
+Air Terjun Tanggedu Sumba
+Kampung Adat Wae Rebo Flores
+Pulau Kanawa Labuan Bajo
+Gua Rangko Labuan Bajo
+Taman Nasional Lorentz Papua
+Lembah Baliem Wamena
+Puncak Jaya Cartenz Papua
+Teluk Cenderawasih Nabire
+Kepulauan Kei Maluku Tenggara
+Pantai Ngurbloat Maluku
+Banda Neira Maluku
+Gunung Gamalama Ternate
+Pulau Dodola Morotai
+Taman Nasional Tanjung Puting Kalimantan Tengah
+Danau Labuan Cermin Berau
+Pulau Maratua Kalimantan Timur
+Pulau Sangalaki Kalimantan Timur
+Pantai Melawai Balikpapan
+Bukit Bangkirai Kalimantan Timur
+Jembatan Ampera Palembang
