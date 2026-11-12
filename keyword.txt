@@ -1,99 +1,100 @@
-Gunung Bromo Jawa Timur
-Raja Ampat Papua Barat
-Danau Toba Sumatera Utara
-Kawah Ijen Banyuwangi
-Pantai Kelingking Nusa Penida
-Pulau Padar Labuan Bajo
-Taman Nasional Komodo
-Candi Borobudur Magelang
-Ngarai Sianok Bukittinggi
-Danau Kelimutu Flores
-Pantai Pink Lombok
-Gunung Rinjani Lombok
-Kawah Putih Ciwidey Bandung
-Tebing Keraton Bandung
-Pantai Tanjung Tinggi Belitung
- Kepulauan Derawan Kalimantan Timur
-Taman Nasional Bromo Tengger Semeru
-Air Terjun Tumpak Sewu Lumajang
-Pantai Parangtritis Yogyakarta
-Gunung Merapi Yogyakarta
-Bukit Teletubbies Bromo
-Danau Sentani Jayapura
-Pantai Ora Maluku Tengah
-Gunung Semeru Jawa Timur
-Kepulauan Karimunjawa Jepara
-Dataran Tinggi Dieng Wonosobo
-Telaga Warna Dieng
-Bukit Sikunir Dieng
-Pantai Sawarna Banten
-Ujung Kulon Banten
-Taman Nasional Baluran Situbondo
-Savana Bekol Baluran
-Pantai Papuma Jember
-Teluk Kiluan Lampung
-Pulau Pahawang Lampung
-Air Terjun Madakaripura Probolinggo
-Gunung Prau Wonosobo
-Gunung Merbabu Jawa Tengah
-Gunung Lawu Karanganyar
-Tawangmangu Karanganyar
-Grojogan Sewu Tawangmangu
-Pantai Menganti Kebumen
-Goa Gong Pacitan
-Pantai Klayar Pacitan
-Wakatobi Sulawesi Tenggara
-Taman Nasional Bunaken Manado
-Danau Linow Tomohon
-Tana Toraja Sulawesi Selatan
-Pegunungan Karst Maros Pangkep
-Pantai Losari Makassar
-Pulau Weh Sabang Aceh
-Danau Laut Tawar Takengon
-Lembah Harau Payakumbuh
-Jam Gadang Bukittinggi
-Pulau Samosir Danau Toba
-Air Terjun Sipiso-piso
-Pantai Pandawa Bali
-Tanah Lot Bali
-Uluwatu Bali
-Tegalalang Rice Terrace Ubud
-Danau Beratan Bedugul
-Gunung Agung Bali
-Gunung Batur Kintamani
-Pantai Lovina Singaraja
-Pulau Menjangan Bali
-Gili Trawangan Lombok
-Gili Meno Lombok
-Gili Air Lombok
-Bukit Pergasingan Sembalun
-Pantai Tanjung Aan Lombok
-Bukit Merese Lombok
-Air Terjun Sendang Gile Lombok
-Pulau Kenawa Sumbawa
-Pulau Moyo Sumbawa
-Gunung Tambora Sumbawa
-Danau Satonda Sumbawa
-Pantai Nihiwatu Sumba
-Bukit Wairinding Sumba
-Savana Puru Kambera Sumba
-Air Terjun Tanggedu Sumba
-Kampung Adat Wae Rebo Flores
-Pulau Kanawa Labuan Bajo
-Gua Rangko Labuan Bajo
-Taman Nasional Lorentz Papua
-Lembah Baliem Wamena
-Puncak Jaya Cartenz Papua
-Teluk Cenderawasih Nabire
-Kepulauan Kei Maluku Tenggara
-Pantai Ngurbloat Maluku
-Banda Neira Maluku
-Gunung Gamalama Ternate
-Pulau Dodola Morotai
-Taman Nasional Tanjung Puting Kalimantan Tengah
-Danau Labuan Cermin Berau
-Pulau Maratua Kalimantan Timur
-Pulau Sangalaki Kalimantan Timur
-Pantai Melawai Balikpapan
-Bukit Bangkirai Kalimantan Timur
-Jembatan Ampera Palembang
+Grand Canyon National Park Arizona
+Yosemite Valley California
+Yellowstone National Park Wyoming
+Statue of Liberty New York
+Golden Gate Bridge San Francisco
+Niagara Falls New York
+Monument Valley Utah
+Zion National Park Utah
+Bryce Canyon National Park Utah
+Arches National Park Utah
+Antelope Canyon Arizona
+Horseshoe Bend Arizona
+Glacier National Park Montana
+Rocky Mountain National Park Colorado
+Banff and Glacier Border Views
+Lake Tahoe California Nevada
+Death Valley National Park California
+Joshua Tree National Park California
+Sequoia National Park California
+Redwood National Park California
+Big Sur Coastline California
+Pacific Coast Highway California
+Santa Monica Pier California
+Hollywood Sign Los Angeles
+Las Vegas Strip Night View
+Hoover Dam Nevada Arizona
+Mount Rushmore South Dakota
+Badlands National Park South Dakota
+Devils Tower Wyoming
+Grand Teton National Park Wyoming
+Crater Lake National Park Oregon
+Multnomah Falls Oregon
+Cannon Beach Haystack Rock Oregon
+Mount Rainier National Park Washington
+Olympic National Park Washington
+Space Needle Seattle Skyline
+Denali National Park Alaska
+Mendenhall Glacier Juneau Alaska
+Northern Lights Fairbanks Alaska
+Kenai Fjords National Park Alaska
+Na Pali Coast Kauai Hawaii
+Waimea Canyon Kauai Hawaii
+Haleakala National Park Maui
+Road to Hana Maui Hawaii
+Hawaii Volcanoes National Park
+Waikiki Beach Diamond Head Oahu
+Everglades National Park Florida
+Florida Keys Overseas Highway
+Key West Sunset Pier
+Miami Beach South Beach Skyline
+Great Smoky Mountains Tennessee
+Blue Ridge Parkway North Carolina
+Shenandoah National Park Virginia
+Acadia National Park Maine
+Cape Cod National Seashore Massachusetts
+Boston Harbor Skyline
+Central Park New York City
+Times Square New York City
+Brooklyn Bridge Manhattan Skyline
+Empire State Building Observation View
+Washington Monument National Mall
+Lincoln Memorial Reflecting Pool
+Chicago Cloud Gate Millennium Park
+Chicago Riverwalk Architecture
+Gateway Arch St Louis Missouri
+French Quarter New Orleans
+Savannah Historic District Georgia
+Charleston Rainbow Row South Carolina
+Outer Banks North Carolina
+Chesapeake Bay Bridge
+Adirondack Mountains New York
+Finger Lakes Waterfalls New York
+White Mountains New Hampshire
+Green Mountains Vermont Autumn
+Mackinac Island Michigan
+Pictured Rocks National Lakeshore Michigan
+Apostle Islands Sea Caves Wisconsin
+Boundary Waters Canoe Area Minnesota
+Ozark Mountains Arkansas
+Mammoth Cave National Park Kentucky
+Sedona Red Rock Formations Arizona
+Saguaro National Park Arizona
+White Sands National Park New Mexico
+Carlsbad Caverns New Mexico
+Big Bend National Park Texas
+Palo Duro Canyon Texas
+Austin Congress Avenue Bridge
+San Antonio River Walk
+Maroon Bells Aspen Colorado
+Garden of the Gods Colorado Springs
+Mesa Verde National Park Colorado
+Great Sand Dunes National Park Colorado
+Canyonlands National Park Utah
+Bonneville Salt Flats Utah
+Valley of Fire State Park Nevada
+Lake Powell Utah Arizona
+Havasu Falls Grand Canyon
+Mount St Helens Washington
+Columbia River Gorge Oregon
+Lake Superior North Shore Minnesota
