@@ -1,100 +1,100 @@
-pantai losari makassar sunset
-pantai tanjung bira bulukumba
-pantai appalarang bulukumba
-pantai pasir putih bira
-pantai likupang minahasa utara
-pantai paal likupang
-pantai malalayang manado
-pantai talise palu
-pantai dato majene
-pantai bahari mamuju
-pantai lakeba buton
-pantai nirwana bau bau
-pantai nambo kendari
-pantai torosiaje gorontalo
-pantai olele gorontalo
-pantai bolihutuo boalemo
-pantai marissa pohuwato
-pantai peleng banggai
-pantai kilo 5 luwuk
-pantai katupat luwuk banggai
-teluk bone sulawesi selatan
-teluk palu sulawesi tengah
-teluk tomini gorontalo
-teluk kendari sulawesi tenggara
-laut banda sulawesi tenggara
-kepulauan selayar sulawesi selatan
-pulau kambing selayar
-pulau gusung selayar
-pulau samalona makassar
-pulau khayangan makassar
-pulau bunaken manado
-taman laut bunaken
-pulau siladen manado
-pulau lembeh bitung
-selat lembeh bitung
-kepulauan sangihe sulawesi utara
-kepulauan talaud sulawesi utara
-kepulauan togean tojo una una
-pulau papan togean
-pulau kadidiri togean
-kepulauan banggai sulawesi tengah
-pulau lutungan banggai
-kepulauan wakatobi sulawesi tenggara
-pulau wangi wangi wakatobi
-pulau kaledupa wakatobi
-pulau tomia wakatobi
-pulau binongko wakatobi
-pulau hoga wakatobi
-pulau labengki konawe utara
-pulau bokori kendari
-gunung bawakaraeng sulawesi selatan
-gunung lompobattang malino
-bukit teletubbies malino
-puncak rammang rammang maros
-rammang rammang karst maros
-danau matano sorowako luwu timur
-danau towuti luwu timur
-danau mahalona luwu timur
-danau tempe wajo
-danau poso sulawesi tengah
-lembah bada lore lindu poso
-taman nasional lore lindu
-danau lindu sulawesi tengah
-puncak trikora sulawesi tengah
-gunung klabat minahasa utara
-gunung lokon tomohon
-gunung soputan minahasa tenggara
-gunung mahawu tomohon
-danau linow tomohon
-danau tondano minahasa
-bukit doa kelong tomohon
-puncak lawu malino pinus
-negeri di atas awan lolai toraja utara
-kalibiru rante pao toraja
-bukit kasipalli mamasa
-air terjun takapala malino
-air terjun parangloe gowa
-air terjun bantimurung maros
-air terjun sarambualla luwu
-air terjun saluopa poso
-air terjun wera palu
-air terjun moramo konawe selatan
-air terjun siki manado
-air terjun kali krook manado
-goa leang leang maros
-goa hilla bulukumba
-goa kontu muna
-danau ubur ubur togean
-danau sombano wakatobi
-puncak paku wakatobi
-benteng keraton buton bau bau
-kete kesu tana toraja
-londa tana toraja
-pallawa tana toraja
-desa adat mamasa sulawesi barat
-bukit kuda polewali mandar
-air terjun lita mamasa
-pulau saronde gorontalo
-hiu paus botubarani gorontalo
-benteng fort rotterdam makassar
+mount everest nepal himalaya
+k2 mountain karakoram pakistan
+kangchenjunga mountain himalaya
+lhotse peak nepal
+makalu mountain himalaya
+cho oyu peak nepal tibet
+dhaulagiri mountain nepal
+manaslu peak nepal
+nanga parbat pakistan
+annapurna mountain nepal
+ama dablam peak nepal
+machapuchare fishtail mountain nepal
+mount kailash tibet
+mount fuji japan sunrise
+mount kita japanese alps
+mount hotaka kamikochi japan
+mount tateyama japan
+mount aso kumamoto japan
+huangshan yellow mountains china
+zhangjiajie sandstone peaks china
+mount hua shaanxi china
+jade dragon snow mountain yunnan
+siguniang mountain sichuan china
+pamir mountains tajikistan
+tian shan mountains kyrgyzstan
+altai mountains mongolia
+mount ararat turkey
+kackar mountains turkey
+mount damavand iran
+mount kinabalu sabah malaysia
+matterhorn zermatt switzerland
+mont blanc chamonix france
+eiger mountain swiss alps
+jungfrau peak switzerland
+monch mountain swiss alps
+pitz bernina switzerland
+dufourspitze monte rosa
+grossglockner austria alps
+zugspitze bavaria germany
+tre cime di lavaredo dolomites
+seceda dolomites italy
+alpe di siusi dolomites
+marmolada dolomites italy
+gran paradiso italy
+aiguille du midi chamonix
+ben nevis scotland highlands
+snowdon eryri wales
+galdhopiggen jotunheimen norway
+trollveggen romsdalen norway
+kirkjufell mountain iceland
+landmannalaugar highlands iceland
+mount elbrus caucasus russia
+mount kazbek georgia caucasus
+high tatras mountains slovakia
+picos de europa spain
+denali mount mckinley alaska
+mount logan yukon canada
+mount saint elias alaska
+mount robson canadian rockies
+mount assiniboine canadian rockies
+mount temple banff canada
+moraine lake valley of ten peaks
+mount rainier washington
+mount hood oregon
+mount shasta california
+half dome yosemite california
+el capitan yosemite valley
+mount whitney sierra nevada
+grand teton wyoming
+maroon bells aspen colorado
+pikes peak colorado
+mount rushmore black hills
+great smoky mountains tennessee
+blue ridge mountains virginia
+pico de orizaba mexico
+aconcagua mountain argentina
+huascaran mountain peru
+alpamayo peak cordillera blanca
+ausangate rainbow mountain peru
+huayna picchu machu picchu
+fitz roy patagonia argentina
+cerro torre patagonia
+torres del paine chile
+cuernos del paine patagonia
+osorno volcano chile
+villarrica volcano chile
+cotopaxi volcano ecuador
+chimborazo volcano ecuador
+illimani mountain la paz bolivia
+mount roraima tepui venezuela
+mount kilimanjaro tanzania
+mount kenya africa
+rwenzori mountains uganda
+simien mountains ethiopia
+drakensberg mountains south africa
+table mountain cape town
+atlas mountains morocco
+aoraki mount cook new zealand
+mount taranaki new zealand
+mount kosciuszko australia
