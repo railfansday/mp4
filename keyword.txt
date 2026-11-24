@@ -1,100 +1,100 @@
-mount everest nepal himalaya
-k2 mountain karakoram pakistan
-kangchenjunga mountain himalaya
-lhotse peak nepal
-makalu mountain himalaya
-cho oyu peak nepal tibet
-dhaulagiri mountain nepal
-manaslu peak nepal
-nanga parbat pakistan
-annapurna mountain nepal
-ama dablam peak nepal
-machapuchare fishtail mountain nepal
-mount kailash tibet
-mount fuji japan sunrise
-mount kita japanese alps
-mount hotaka kamikochi japan
-mount tateyama japan
-mount aso kumamoto japan
-huangshan yellow mountains china
-zhangjiajie sandstone peaks china
-mount hua shaanxi china
-jade dragon snow mountain yunnan
-siguniang mountain sichuan china
-pamir mountains tajikistan
-tian shan mountains kyrgyzstan
-altai mountains mongolia
-mount ararat turkey
-kackar mountains turkey
-mount damavand iran
-mount kinabalu sabah malaysia
-matterhorn zermatt switzerland
-mont blanc chamonix france
-eiger mountain swiss alps
-jungfrau peak switzerland
-monch mountain swiss alps
-pitz bernina switzerland
-dufourspitze monte rosa
-grossglockner austria alps
-zugspitze bavaria germany
-tre cime di lavaredo dolomites
-seceda dolomites italy
-alpe di siusi dolomites
-marmolada dolomites italy
-gran paradiso italy
-aiguille du midi chamonix
-ben nevis scotland highlands
-snowdon eryri wales
-galdhopiggen jotunheimen norway
-trollveggen romsdalen norway
-kirkjufell mountain iceland
-landmannalaugar highlands iceland
-mount elbrus caucasus russia
-mount kazbek georgia caucasus
-high tatras mountains slovakia
-picos de europa spain
-denali mount mckinley alaska
-mount logan yukon canada
-mount saint elias alaska
-mount robson canadian rockies
-mount assiniboine canadian rockies
-mount temple banff canada
-moraine lake valley of ten peaks
-mount rainier washington
-mount hood oregon
-mount shasta california
-half dome yosemite california
-el capitan yosemite valley
-mount whitney sierra nevada
-grand teton wyoming
-maroon bells aspen colorado
-pikes peak colorado
-mount rushmore black hills
-great smoky mountains tennessee
-blue ridge mountains virginia
-pico de orizaba mexico
-aconcagua mountain argentina
-huascaran mountain peru
-alpamayo peak cordillera blanca
-ausangate rainbow mountain peru
-huayna picchu machu picchu
-fitz roy patagonia argentina
-cerro torre patagonia
-torres del paine chile
-cuernos del paine patagonia
-osorno volcano chile
-villarrica volcano chile
-cotopaxi volcano ecuador
-chimborazo volcano ecuador
-illimani mountain la paz bolivia
-mount roraima tepui venezuela
-mount kilimanjaro tanzania
-mount kenya africa
-rwenzori mountains uganda
-simien mountains ethiopia
-drakensberg mountains south africa
-table mountain cape town
-atlas mountains morocco
-aoraki mount cook new zealand
-mount taranaki new zealand
-mount kosciuszko australia
+bali island indonesia beach sunset
+nusa penida kelingking beach bali
+gili trawangan lombok indonesia
+raja ampat wayag islands papua
+komodo island flores indonesia
+phuket island thailand aerial
+koh phi phi islands thailand
+koh samui beach palm trees
+el nido palawan islands philippines
+siargao island philippines palm trees
+boracay white beach philippines
+langkawi island malaysia tropical
+perhentian islands malaysia turquoise water
+okinawa island japan tropical coast
+ishigaki island japan coral beach
+jeju island south korea coastline
+bora bora french polynesia lagoon
+moorea island french polynesia
+tahiti island tropical paradise
+fiji islands aerial coral reef
+vanuatu tropical island coast
+maui island hawaii coastline
+oahu hawaii lanikai beach
+kauai napali coast hawaii
+galapagos islands ecuador volcanic coast
+hong kong island skyline harbor
+taiwan green island coast
+hainan island china tropical beach
+andaman islands india turquoise beach
+havelock island radhanagar beach
+lakshadweep islands india aerial
+sri lanka pigeon island beach
+maldives aerial island atoll
+maafushi island maldives beach
+socotra island yemen dragon blood trees
+bahrain island coast persian gulf
+cyprus island mediterranean coast
+penang island george town malaysia
+sumba island walakiri beach
+karimunjawa islands central java
+belitung island granite rocks beach
+bintan island riau indonesia
+derawan island east kalimantan
+maratua island derawan lagoon
+batanes islands philippines hills
+santorini greece white cliff sunset
+mykonos greece windmills coast
+crete greece elafonisi beach
+zakynthos navagio shipwreck beach greece
+corfu island greece mediterranean
+capri island italy faraglioni
+sicily island italy mount etna
+sardinia island italy costa smeralda
+mallorca spain cala coast
+ibiza spain mediterranean cliffs
+tenerife canary islands volcanic coast
+madeira island portuguese atlantic cliffs
+azores sao miguel island green crater
+corsica island france coast
+malta island mediterranean limestone
+isle of skye scotland highlands coast
+faroe islands atlantic cliffs
+iceland heimaey island coast
+lofoten islands norway fjords
+gotland island sweden coast
+bornholm island denmark coast
+helgoland island germany red cliffs
+jersey channel islands coast
+rhodes island greece old town
+kefalonia myrtos beach greece
+aruba eagle beach turquoise water
+barbados tropical island coast
+bahamas exuma pig beach water
+turks and caicos grace bay
+jamaica seven mile beach coast
+saint lucia pitons island
+cuba varadero beach coast
+puerto rico vieques bioluminescent bay
+bermuda pink sand beach island
+key west florida tropical coast
+vancouver island british columbia forest
+prince edward island canada coast
+san juan islands washington coast
+fernando de noronha brazil baia do sancho
+ilha grande rio de janeiro brazil
+easter island rapa nui moai coast
+falkland islands south atlantic coast
+chiloe island chile colorful houses
+marajo island amazon mouth brazil
+cozumel island mexico coral reef
+zanzibar island tanzania white beach
+seychelles la digue source d argent
+mauritius le morne island aerial
+madagascar nosy be island coast
+reunion island piton de la fournaise
+whitsunday islands whitehaven beach australia
+kangaroo island south australia coast
+tasmania wineglass bay australia
+great barrier reef lady musgrave island
+waiheke island new zealand coast
